@@ -1,7 +1,7 @@
 import { useState, useEffect  } from "react";
 import Navbar from "../components/Navbar";
 import MediaCard from "../components/MediaCard";
-import { mediaData } from "../data/mediaData";
+import { mediaData } from "../data/mediaData.js";
 
 export default function Home() {
   // state utama (data media)
