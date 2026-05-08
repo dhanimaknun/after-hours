@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Library from "./pages/Library";
-import Favorites from "./pages/Favorites";
+import Home from "./pages/Home.jsx";
+import Library from "./pages/Library.jsx";
+import Favorites from "./pages/Favorites.jsx";
 
 export default function App() {
   return (
