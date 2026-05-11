@@ -1,7 +1,12 @@
-@import "tailwindcss";
-
-body {
-  background: #f6f1eb;
-  color: #2b2b2b;
-  font-family: sans-serif;
-}
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: "class",
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
